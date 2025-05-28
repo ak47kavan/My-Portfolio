@@ -39,7 +39,7 @@ function init() {
 
   const loader = new GLTFLoader();
   loader.load(
-    'src/assets/scene.gltf',
+    'public/models/scene.gltf',
     (gltf) => {
       const model = gltf.scene;
       scene.add(model);
